@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Hind');
+body {
+    font-family: 'Hind', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1; /* ie 6/7 */
+}
+
+header {
+
+}
+
+i.fa {
+    color: black;
+}
+
+.header {
+    font-family: "Hind";
+    font-size: 16px;
+    color: rgb(86, 86, 85);
+}
+
+.top {
+    padding: 15px 6%;
+    background: #ededed;
+    text-align: center;
+}
+.title-block{
+    display: inline;
+}
+.icon-ok{
+    float: left;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.top-left {
+ float: left;
+}
+
+#selectID {
+    color: rgb(255, 255, 255);
+    font-family: "Hind";
+    font-size: 14px;
+    background: #212121;
+    border-radius: 5px;
+    padding: 5px;
+}
+.arrow-up{
+    float: right;
+    padding: 3px 3px 3px 10px;
+}
+i.fa.fa-angle-up.arrow-up{
+    color: white;
+}
+
+
+
+.top-center ul li {
+    float: left;
+    display: inline;
+}
+
+i.fa-phone,
+i.fa-location-arrow{
+    color: #000;
+    font-size: 21px;
+}
+
+i.fa-phone {
+    padding-right: 4px;
+}
+i.fa-location-arrow {
+    padding-right: 6px;
+}
+
+li.toll {
+    padding-top: 3px;
+    font-size: 14px;
+    margin-left: 98px;
+    color: #929292;
+}
+
+
+li.adress {
+    padding-top: 3px;
+    color: #929292;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: 1px;
+}
+
+.top-right {
+    text-align: right;
+    margin: 0px 0px 0 0;
+}
+
+.top-right ul li {
+    display: inline;
+}
+
+.top-right ul li a:link {
+    padding: 9px;
+    color: black;
+}
+
+.center {
+    padding: 15px;
+    background: #ededed;
+    text-align: center;
+}
+
+.center-left {
+    margin-top: 11px;
+    margin-left: 116px;
+    padding: 15px;
+    float: left;
+}
+
+.center-right {
+    float: right;
+}
+
+.center-right ul {
+    padding-top: 30px;
+    margin-right: 70px;
+    color: black;
+}
+
+.center-right li {
+    float: left;
+    display: inline;
+    padding: 11px;
+}
+
+li.one {
+    padding-right: 27px;
+    border-right: 1px solid #e6e6e6;
+}
+
+li.two {
+    padding-right: 15px;
+    border-right: 1px solid #e6e6e6;
+}
+
+li.three {
+    padding-right: 15px;
+}
+
+.center-right p > span{
+    display: block;
+}
+
+span.title {
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+span.subtitle {
+    float: right;
+}
+
+.ma {
+
+}
+
+.mb {
+    margin-right: 51px;
+}
+
+.mc {
+    margin-right: 69px;
+}
+
+.navigation{
+    top: 0;
+    position: absolute;
+    background: #000;
+    opacity: 0.69;
+    width: 100%;
+}
+.navigation nav{
+    float: left;
+    padding-left: 132px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 24px 19px 16px 7px;
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 7px solid transparent;
+    margin-left: 3px;
+}
+nav li a:hover{
+    color: #fff;
+    border-bottom: 7px solid #bd2631    ;
+}
+.current a{
+    border-bottom: 7px solid #bd2631;
+}
+
+.wrapper {
+    position: relative;
+    background: #000000;
+    top: 141px;
+}
+
+.wrapper img {
+    width: 84%;
+    height: auto;
+}
+
+.search {
+    padding-right: 128px;
+    float: right;
+    line-height: 3.5;
+    font-size: 19px;
+}
+
+i.fa-search {
+    color: #fff;
+}
+
+
+
