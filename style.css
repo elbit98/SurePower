@@ -43,7 +43,7 @@ i.fa {
     color: rgb(86, 86, 85);
 }
 
-.top {
+.info-block {
     padding: 15px 6%;
     background: #ededed;
     text-align: center;
@@ -57,7 +57,7 @@ i.fa {
     padding-right: 10px;
 }
 
-.top-left {
+.country {
  float: left;
 }
 
@@ -77,9 +77,12 @@ i.fa.fa-angle-up.arrow-up{
     color: white;
 }
 
+.toll-adress {
+    width: 69%;
+    float: left;
+}
 
-
-.top-center ul li {
+.toll-adress ul li {
     float: left;
     display: inline;
 }
@@ -113,46 +116,44 @@ li.adress {
     margin-top: 1px;
 }
 
-.top-right {
+.soc-link {
+    float:right;
     text-align: right;
     margin: 0px 0px 0 0;
 }
 
-.top-right ul li {
+.soc-link ul li {
     display: inline;
 }
 
-.top-right ul li a:link {
+.soc-link ul li a:link {
     padding: 9px;
     color: black;
 }
 
-.center {
-    padding: 15px;
-    background: #ededed;
-    text-align: center;
+.sureblock {
+   padding-left: 58px;
 }
 
-.center-left {
+.logo {
     margin-top: 11px;
-    margin-left: 116px;
+    margin-left: 58px;
     padding: 15px;
     float: left;
 }
 
-.center-right {
+.subtitle-block {
     float: right;
 }
 
-.center-right ul {
+.subtitle-block ul {
     padding-top: 30px;
     margin-right: 70px;
     color: black;
 }
 
-.center-right li {
-    float: left;
-    display: inline;
+.subtitle-block li {
+    display: inline-block;
     padding: 11px;
 }
 
@@ -195,16 +196,18 @@ span.subtitle {
     margin-right: 69px;
 }
 
-.navigation{
+.nav-search{
+    padding-left: 66px;
+    padding-right: 32px;
     top: 0;
     position: absolute;
     background: #000;
     opacity: 0.69;
     width: 100%;
 }
-.navigation nav{
+.nav-search nav{
     float: left;
-    padding-left: 132px;
+    padding-left: 66px;
 }
 
 nav li a{
@@ -237,7 +240,8 @@ nav li a:hover{
 }
 
 .search {
-    padding-right: 128px;
+    margin-right: 32px;
+    padding-right: 64px;
     float: right;
     line-height: 3.5;
     font-size: 19px;
