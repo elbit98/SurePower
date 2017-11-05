@@ -44,7 +44,7 @@ i.fa {
 }
 
 .info-block {
-    padding: 15px 6%;
+    padding: 15px 4% 15px 10%;
     background: #ededed;
     text-align: center;
 }
@@ -66,14 +66,23 @@ i.fa {
     font-family: "Hind";
     font-size: 14px;
     background: #212121;
-    border-radius: 5px;
+    border-radius: 2px;
     padding: 5px;
 }
-.arrow-up{
-    float: right;
-    padding: 3px 3px 3px 10px;
+
+i.fa-angle-down {
+    font-size: 22px;
 }
-i.fa.fa-angle-up.arrow-up{
+
+.philadelphia {
+
+}
+
+.arrow-down{
+    float: right;
+    padding: 0px 3px 3px 10px;
+}
+i.fa.fa-angle-down.arrow-down{
     color: white;
 }
 
@@ -120,6 +129,7 @@ li.adress {
     float:right;
     text-align: right;
     margin: 0px 0px 0 0;
+    padding-right: 4%;
 }
 
 .soc-link ul li {
@@ -132,12 +142,11 @@ li.adress {
 }
 
 .sureblock {
-   padding-left: 58px;
+    padding-left: 9%;
+    padding-top: 11px;
 }
 
 .logo {
-    margin-top: 11px;
-    margin-left: 58px;
     padding: 15px;
     float: left;
 }
@@ -154,7 +163,7 @@ li.adress {
 
 .subtitle-block li {
     display: inline-block;
-    padding: 11px;
+    padding: 0px 11px 0px 11px;
 }
 
 li.one {
@@ -185,29 +194,29 @@ span.subtitle {
 }
 
 .ma {
-
+    color: #8c8c8c;
 }
 
 .mb {
+    color: #8c8c8c;
     margin-right: 51px;
 }
 
 .mc {
+    color: #8c8c8c;
     margin-right: 69px;
 }
 
 .nav-search{
-    padding-left: 66px;
-    padding-right: 32px;
+    width: 100%;
     top: 0;
     position: absolute;
     background: #000;
     opacity: 0.69;
-    width: 100%;
 }
 .nav-search nav{
     float: left;
-    padding-left: 66px;
+    padding-left: 9%;
 }
 
 nav li a{
@@ -218,7 +227,6 @@ nav li a{
     display: inline-block;
     text-transform: uppercase;
     border-bottom: 7px solid transparent;
-    margin-left: 3px;
 }
 nav li a:hover{
     color: #fff;
@@ -229,9 +237,9 @@ nav li a:hover{
 }
 
 .wrapper {
+    z-index: 98;
     position: relative;
     background: #000000;
-    top: 141px;
 }
 
 .wrapper img {
@@ -240,8 +248,7 @@ nav li a:hover{
 }
 
 .search {
-    margin-right: 32px;
-    padding-right: 64px;
+    padding-right: 7%;
     float: right;
     line-height: 3.5;
     font-size: 19px;
@@ -251,5 +258,101 @@ i.fa-search {
     color: #fff;
 }
 
+i.fa-angle-left {
+    color: #fff;
+}
 
+i.fa-angle-right {
+    color: #fff;
+}
 
+.slider {
+    background: black url("img/slider.png") no-repeat right;
+    height: 600px;
+    position: relative;
+}
+
+.arrows{
+    position: absolute;
+    top: 46.4%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 77px;
+    color: #ffffff;
+}
+.arrow-left{
+    padding-left: 22px;
+}
+.arrow-right{
+    padding-right: 22px;
+}
+.slider-text{
+    top: 9%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 84.8%;
+    height: 21%;
+    margin: auto;
+    line-height: 0.6;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.slider-text h3 {
+    color: #bd2631;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.slider-text h2 {
+    color: #ffffff;
+    font-size: 43px;
+}
+.slider-text p {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.free {
+    color: #ffffff;
+    background: #bf232c;
+}
+.free-text {
+    float: left;
+    margin: 18px 0 0 8%;
+}
+.free h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 7px;
+    height: 37px;
+}
+.free h3 {
+    font-size: 24px;
+    font-weight: 300;
+}
+.free button {
+    float: right;
+    position: relative;
+    cursor: pointer;
+    min-width: 139px;
+    height: 54px;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 3px;
+    margin: 37px 8% 36px 0;
+}
+
+.free button a {
+    position: absolute;
+    color: #000000;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    top: 15px;
+    left: 30px;
+}
