@@ -112,7 +112,7 @@ i.fa-location-arrow {
 li.toll {
     padding-top: 3px;
     font-size: 14px;
-    margin-left: 98px;
+    margin-left: 11%;
     color: #929292;
 }
 
@@ -121,7 +121,7 @@ li.adress {
     padding-top: 3px;
     color: #929292;
     font-size: 14px;
-    margin-left: 30px;
+    margin-left: 4%;
     margin-top: 1px;
 }
 
@@ -211,12 +211,16 @@ span.subtitle {
     width: 100%;
     top: 0;
     position: absolute;
-    background: #000;
-    opacity: 0.69;
+
+    background-color: rgba(0, 0, 0, 0.8);
 }
 .nav-search nav{
     float: left;
     padding-left: 9%;
+}
+
+.mobile-menu {
+    display: none;
 }
 
 nav li a{
@@ -356,3 +360,561 @@ i.fa-angle-right {
     top: 15px;
     left: 30px;
 }
+
+.PSB {
+    flex-direction: column;
+}
+
+
+.pro {
+    height: 454px;
+    width: 100%;
+}
+
+.infopro {
+    height: 454px;
+    background: black url("img/bgpro.png") no-repeat;
+    position: relative;
+    width: 50%;
+    float: left;
+}
+
+.twopro img {
+    height: 454px;
+    width: 25%;
+    float: left;
+}
+
+.onepro {
+    height: 454px;
+    max-width: 25%;
+    float: right;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+
+.onepro img {
+    margin: 0 auto;
+}
+
+
+.ser {
+    height: 454px;
+    width: 100%;
+}
+
+.infoser {
+    height: 454px;
+    background: black url("img/layer-45.png") no-repeat;
+    position: relative;
+    width: 50%;
+    float: right;
+}
+
+.twoser img {
+    height: 454px;
+    width: 25%;
+    float: left;
+}
+
+.oneser {
+    height: 454px;
+    max-width: 25%;
+    float: right;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+
+.oneser  img {
+    margin: 0 auto;
+}
+
+
+.bat {
+    height: 454px;
+    width: 100%;
+}
+
+.infobat {
+    height: 454px;
+    background: black url("img/layer-47.png") no-repeat;
+    position: relative;
+    width: 50%;
+    float: left;
+}
+
+.twobat img {
+    height: 454px;
+    width: 25%;
+    float: right;
+}
+
+.onebat {
+    height: 454px;
+    max-width: 25%;
+    float: left;
+    background: #bd2631;
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+
+.onebat  img {
+    margin: 0 auto;
+}
+
+
+.g-layout-text1,
+.g-layout-text2,
+.g-layout-text3 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.g-layout-text1 h2,
+.g-layout-text2 h2,
+.g-layout-text3 h2{
+    color: #bd2631;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 29px;
+}
+.g-layout-text1 p,
+.g-layout-text2 p,
+.g-layout-text3 p{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 2.2;
+    width: 90%;
+}
+.g-layout-text1{
+    margin-left: 10.3%;
+    margin-top: 25px;
+}
+
+
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1273px) {
+    .toll-adress {
+        width: 62%;
+    }
+}
+
+@media only screen and (max-width: 1095px) {
+    li.toll {
+        margin-left: 30px;
+    }
+
+    .toll-adress {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+    .logo {
+        padding-bottom: 5px;
+        padding-left: 30%;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+    .subtitle-block {
+        padding-right: 20%;
+    }
+    .subtitle-block ul {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 949px) {
+
+    .soc-link {
+       padding-right: 40%;
+    }
+
+    .toll-adress ul li {
+        display: inline;
+    }
+
+    .toll-adress {
+        padding-left: 5%;
+        width: 75%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .nav-search {display: none;}
+
+    .mobile-menu {
+        margin-left: 2%;
+        display: block;
+        color: #fff;
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    i.fa-bars {
+        color: #fff;
+        float:left
+        margin: auto;
+    }
+
+    .search {
+        padding-right: 7%;
+        float: right;
+        line-height: 0;
+        font-size: 19px;
+    }
+
+    i.fa-search {
+        margin-top: 7px;
+    }
+
+    .pro {
+        height: 454px;
+        width: 100%;
+    }
+
+    .infopro {
+        height: 454px;
+        background: black url("img/bgpro.png") no-repeat;
+        position: relative;
+        width: 100%;
+    }
+
+    .twopro img {
+        float:right;
+        height: 254px;
+        width: 50%;
+
+    }
+
+
+
+    .onepro {
+        float:left;
+        height: 254px;
+        max-width: 50%;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        width: 50%;
+    }
+
+    .onepro img {
+        margin: 0 auto;
+    }
+
+
+    .ser {
+        height: 454px;
+        width: 100%;
+    }
+
+    .infoser {
+        height: 254px;
+        background: black url("img/layer-45.png") no-repeat;
+        position: relative;
+        width: 100%;
+        float: right;
+    }
+
+    .twoser img {
+        height: 254px;
+        width: 50%;
+        float: right;
+    }
+
+    .oneser {
+        height: 254px;
+        max-width: 50%;
+        float: left;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        width: 50%;
+    }
+
+    .oneser  img {
+        margin: 0 auto;
+    }
+
+
+    .bat {
+        height: 454px;
+        width: 100%;
+    }
+
+    .infobat {
+        height: 454px;
+        background: black url("img/layer-47.png") no-repeat;
+        position: relative;
+        width: 100%;
+        float: left;
+    }
+
+    .twobat img {
+        height: 254px;
+        width: 50%;
+        float: right;
+    }
+
+    .onebat {
+        height: 254px;
+        max-width: 50%;
+        float: left;
+        background: #bd2631;
+        display: flex;
+        align-items: center;
+        width: 50%;
+    }
+
+    .onebat  img {
+        margin: 0 auto;
+    }
+
+    .subtitle-block ul {
+        margin-right: 0px;
+    }
+
+    .logo {
+        padding: 0px 0px 0px 22%;
+    }
+
+    .nav-search nav {
+        padding-left: 6%;
+    }
+
+
+    .slider-text h3 {
+        color: #bd2631;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .slider-text h2 {
+        color: #ffffff;
+        font-size: 33px;
+    }
+    .slider-text p {
+        color: #ffffff;
+        font-size: 17px;
+    }
+
+    .free button {
+        margin: 37px 40% 36px 0;
+    }
+
+}
+
+
+@media only screen and (max-width: 425px) {
+
+    .slider-text {
+        margin-left: 20%;
+    }
+
+
+
+    .logo {
+        padding: 0px 0px 0px 6%;
+    }
+
+    .soc-link {
+        padding-right: 29%;
+    }
+
+    .slider-text h3 {
+        color: #bd2631;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .slider-text h2 {
+        color: #ffffff;
+        font-size: 16px;
+    }
+    .slider-text p {
+        color: #ffffff;
+        font-size: 9px;
+    }
+
+    li.one {
+        padding-left: 37%;
+        border: none;
+    }
+
+    li.two {
+        padding-left: 37%;
+        border: none;
+    }
+
+    li.three {
+        padding-left: 37%;
+        border: none;
+    }
+
+    .country {
+        margin: 0 auto;
+        display: block;
+        width: 93%;
+    }
+
+    li.toll {
+          margin-left: 21%;
+      }
+
+    li.adress {
+        margin-left: 14%;
+    }
+
+
+    .pro {
+        height: 454px;
+        width: 100%;
+    }
+
+    .infopro {
+        height: 454px;
+        background: black url("img/bgpro.png") no-repeat;
+        position: relative;
+        width: 100%;
+    }
+
+    .twopro img {
+        float:right;
+        height: 254px;
+        width: 50%;
+
+    }
+
+
+
+    .onepro {
+        float:left;
+        height: 254px;
+        max-width: 50%;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        width: 50%;
+    }
+
+    .onepro img {
+        margin: 0 auto;
+    }
+
+    .ser {
+        height: 454px;
+        width: 100%;
+    }
+
+    .infoser {
+        height: 254px;
+        background: black url("img/layer-45.png") no-repeat;
+        position: relative;
+        width: 100%;
+        float: right;
+    }
+
+
+    .twoser img {
+        height: 254px;
+        width: 50%;
+        float: right;
+    }
+
+    .oneser {
+        height: 254px;
+        max-width: 50%;
+        float: left;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        width: 50%;
+    }
+
+    .oneser  img {
+        margin: 0 auto;
+    }
+
+
+    .bat {
+        height: 454px;
+        width: 100%;
+    }
+
+    .infobat {
+        height: 454px;
+        background: black url("img/layer-47.png") no-repeat;
+        position: relative;
+        width: 100%;
+        float: left;
+    }
+
+    .twobat img {
+        height: 254px;
+        width: 50%;
+        float: right;
+    }
+
+    .onebat {
+        height: 254px;
+        max-width: 50%;
+        float: left;
+        background: #bd2631;
+        display: flex;
+        align-items: center;
+        width: 50%;
+    }
+
+    .onebat  img {
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+    .logo img {
+        width: 80%;
+    }
+
+    .soc-link {
+        padding-right: 16%;
+    }
+
+    li.toll {
+        margin-left: 30px;
+    }
+
+    .toll-adress {
+        width: 100%;
+    }
+
+    li.adress {
+        margin-left: 0%;
+        margin-right: 10%;
+    }
+
+}
+
+
+
