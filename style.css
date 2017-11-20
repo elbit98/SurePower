@@ -87,7 +87,7 @@ i.fa.fa-angle-down.arrow-down{
 }
 
 .toll-adress {
-    width: 69%;
+    width: 50%;
     float: left;
 }
 
@@ -126,10 +126,11 @@ li.adress {
 }
 
 .soc-link {
-    float:right;
+    float: right;
     text-align: right;
-    margin: 0px 0px 0 0;
+    margin: 0px;
     padding-right: 4%;
+    width:20%;
 }
 
 .soc-link ul li {
@@ -361,6 +362,7 @@ i.fa-angle-right {
     left: 30px;
 }
 
+
 .PSB {
     flex-direction: column;
 }
@@ -374,82 +376,66 @@ i.fa-angle-right {
 .infopro {
     height: 454px;
     background: black url("img/bgpro.png") no-repeat;
+    background-size: cover;
     position: relative;
     width: 50%;
     float: left;
-    background-size: cover;
-}
-
-.twopro {
-    height: 100%;
-    background: black url("img/layer-43.png") no-repeat;
-    width: 25%;
-    float: left;
-    background-size: cover;
 }
 
 .twopro img {
-    width: 100%;
+    height: 454px;
+    width: 25%;
+    float: left;
 }
 
 .onepro {
-    height: 100%;
+    height: 454px;
     max-width: 25%;
     float: right;
-    background: #fff url("img/layer-36.png") no-repeat;
-    background-position: center;
+    background: #fff;
     display: flex;
+    align-items: center;
     width: 25%;
 }
 
 .onepro img {
-    width: 100%;
+    margin: 0 auto;
 }
-
 
 
 .ser {
-    height: 100%;
+    height: 454px;
     width: 100%;
 }
 
-
 .infoser {
     height: 454px;
-    background: black url("img/layer-45.png") no-repeat;
+    background: black url("img/bgser.png") no-repeat;
     background-size: cover;
     position: relative;
     width: 50%;
     float: right;
 }
 
-.twoser {
+.twoser img {
     height: 454px;
-    background: black url("img/layer-40.png") no-repeat;
-    background-size: cover;
     width: 25%;
     float: left;
 }
-
-.twoser img {
-    width: 100%;
-}
-
 
 .oneser {
     height: 454px;
     max-width: 25%;
     float: right;
-    background: #fff url("img/layer-52.png") no-repeat;
-    background-position: center;
+    background: #fff;
     display: flex;
+    align-items: center;
     width: 25%;
 }
 
-.oneser img {
-    width: 100%;
+.oneser  img {
+    margin: 0 auto;
 }
-
 
 
 .bat {
@@ -459,39 +445,34 @@ i.fa-angle-right {
 
 .infobat {
     height: 454px;
-    background: black url("img/layer-47.png") no-repeat;
+    background: black url("img/bgbat.png") no-repeat;
     background-size: cover;
     position: relative;
     width: 50%;
     float: left;
 }
 
-
-.twobat {
+.twobat img {
     height: 454px;
     width: 25%;
     float: right;
-    background: black url("img/layer-44.png") no-repeat;
-    background-size: cover;
-}
-
-.twobat img {
-    width: 100%;
 }
 
 .onebat {
     height: 454px;
     max-width: 25%;
     float: left;
-    background: #bd2631 url("img/layer-37.png") no-repeat;
-    background-position: center;
+    background: #bd2631;
     display: flex;
+    align-items: center;
     width: 25%;
 }
 
-.onebat img {
-    width: 100%;
+.onebat  img {
+    margin: 0 auto;
 }
+
+
 
 .g-layout-text1,
 .g-layout-text2,
@@ -532,60 +513,163 @@ i.fa-angle-right {
 
 /* RESPONSIVE */
 
-@media only screen and (max-width: 1273px) {
-    .toll-adress {
-        width: 62%;
-    }
-}
+@media only screen and (max-width: 1060px) {
 
-@media only screen and (max-width: 1095px) {
+    .toll-adress {
+        width: 54%;
+        float: none;
+    }
+
+    .country {
+        float: none;
+    }
+
+    .philadelphia {
+        width: 200px;
+    }
+
+    .toll-adress {
+        max-width: 50%;
+    }
+
     li.toll {
-        margin-left: 30px;
+        margin-left: 0px;
     }
 
-    .toll-adress {
-        width: 60%;
+    li.adress {
+        margin-left: 0;
     }
-}
-
-@media only screen and (max-width: 970px) {
-    .logo {
-        padding-bottom: 5px;
-        padding-left: 30%;
-    }
-}
-
-@media only screen and (max-width: 970px) {
-    .subtitle-block {
-        padding-right: 20%;
-    }
-    .subtitle-block ul {
-        padding-top: 10px;
-        padding-bottom: 15px;
-    }
-}
-
-
-@media only screen and (max-width: 949px) {
 
     .soc-link {
-       padding-right: 40%;
-    }
-
-    .toll-adress ul li {
-        display: inline;
-    }
-
-    .toll-adress {
-        padding-left: 5%;
-        width: 75%;
+        width: 25%;
+        float: right;
+        position: relative;
+        bottom: 60px;
     }
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 970px) {
 
-    .nav-search {display: none;}
+    .sureblock {
+        padding: 0;
+    }
+
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .subtitle-block {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .subtitle-block ul {
+        padding: 0px 0px 0px 7%;
+        margin: 0;
+    }
+
+    .pro {
+        height: 454px;
+        width: 100%;
+    }
+
+    .infopro {
+        height: 454px;
+        background: black url("img/bgpro.png") no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .twopro img {
+        float:right;
+        width: 50%;
+    }
+
+
+
+    .onepro {
+        max-width: 50%;
+        width: 50%;
+    }
+
+    .onepro img {
+        margin: 0 auto;
+    }
+
+
+    .ser {
+        height: 454px;
+        width: 100%;
+    }
+
+    .infoser {
+        background: black url("img/bgser.png") no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .twoser img {
+        width: 50%;
+        float: right;
+    }
+
+    .oneser {
+        max-width: 50%;
+        float: left;
+        width: 50%;
+    }
+
+    .oneser  img {
+        margin: 0 auto;
+    }
+
+
+    .bat {
+        height: 454px;
+        width: 100%;
+    }
+
+    .infobat {
+        background: black url("img/bgbat.png") no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .twobat img {
+        width: 50%;
+        float: right;
+    }
+
+    .onebat {
+        max-width: 50%;
+        width: 50%;
+    }
+
+    .onebat  img {
+        margin: 0 auto;
+    }
+
+
+}
+
+@media only screen and (max-width: 859px) {
+    .soc-link {
+        width: 36%;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+
+    .logo {
+        padding: 15px 0px 0px 0px;
+    }
+
+.soc-link {
+    width: 36%;
+}
 
     .mobile-menu {
         margin-left: 2%;
@@ -594,6 +678,8 @@ i.fa-angle-right {
         font-size: 24px;
         padding: 10px;
     }
+
+    .nav-search {display: none;}
 
     i.fa-bars {
         color: #fff;
@@ -612,255 +698,214 @@ i.fa-angle-right {
         margin-top: 7px;
     }
 
-
-    .infopro {
-        height: 454px;
-        background: black url("img/bgpro.png") no-repeat;
-        background-size: cover;
-        position: relative;
-        width: 100%;
-    }
-
-    .twopro {
-        height: 254px;
-        width: 50%;
-    }
-
-    .onepro {
-        height: 254px;
-        max-width: 50%;
-        width: 50%;
-    }
-
-
-    .infoser {
-        height: 454px;
-        background: black url("img/layer-45.png") no-repeat;
-        background-size: cover;
-        position: relative;
-        width: 100%;
-        float: right;
-    }
-
-    .twoser {
-        height: 254px;
-        width: 50%;
-    }
-
-    .oneser {
-        height: 254px;
-        max-width: 50%;
-        width: 50%;
-    }
-
-
-    .infobat {
-        height: 454px;
-        background: black url("img/layer-47.png") no-repeat;
-        background-size: cover;
-        position: relative;
-        width: 100%;
-        float: left;
-    }
-
-    .twobat {
-        height: 254px;
-        width: 50%;
-    }
-
-    .onebat {
-        height: 254px;
-        max-width: 50%;
-        width: 50%;
-    }
-
-
-
-
-    .subtitle-block ul {
-        margin-right: 0px;
-    }
-
-    .logo {
-        padding: 0px 0px 0px 22%;
-    }
-
-    .nav-search nav {
-        padding-left: 6%;
-    }
-
-
     .slider-text h3 {
-        color: #bd2631;
+
         font-size: 22px;
         font-weight: 600;
     }
 
     .slider-text h2 {
-        color: #ffffff;
         font-size: 33px;
     }
     .slider-text p {
-        color: #ffffff;
-        font-size: 17px;
+        font-size: 18px;
+    }
+
+    .free {
+        text-align: center;
     }
 
     .free button {
         margin: 37px 40% 36px 0;
     }
 
+    .free h2 {
+        font-size: 20px;
+        font-weight: 200;
+        margin-top: 4px;
+        height: 30px;
+    }
+    .free h3 {
+        font-size: 20px;
+        font-weight: 200;
+    }
+
+    .slider-text{
+        top: 13%;
+        left: 16%;
+    }
+
 }
 
-
-@media only screen and (max-width: 425px) {
-
-    .slider-text {
-        margin-left: 20%;
-    }
-
-
-
-    .logo {
-        padding: 0px 0px 0px 6%;
-    }
-
+@media only screen and (max-width: 570px) {
     .soc-link {
-        padding-right: 29%;
+        width: 40%;
     }
 
-    .slider-text h3 {
-        color: #bd2631;
-        font-size: 16px;
-        font-weight: 600;
+    .subtitle-block {
+        width: 100%;
+        float: none;
+        margin: 0 auto;
     }
 
-    .slider-text h2 {
-        color: #ffffff;
-        font-size: 16px;
+    .subtitle-block ul {
+        display: table;
+        margin: 0 auto;
     }
-    .slider-text p {
-        color: #ffffff;
-        font-size: 9px;
+
+    .subtitle-block li {
+        display: table;
     }
 
     li.one {
-        padding-left: 37%;
         border: none;
+        max-width: 150px;
     }
 
     li.two {
-        padding-left: 37%;
+        max-width: 2000px;
         border: none;
     }
 
     li.three {
-        padding-left: 37%;
         border: none;
+        max-width: 200px;
     }
 
-    .country {
-        margin: 0 auto;
+    .slider {
+        height: 300px;
+    }
+
+    .slider-text{
+        top: 22%;
+        left: 16%;
+    }
+
+    .slider-text h3 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .slider-text h2 {
+        font-size: 25px;
+    }
+    .slider-text p {
+        font-size: 14px;
+    }
+
+    .free {
+        height: 200px;
+    }
+
+    .free h2 {
+        font-size: 20px;
+        font-weight: 100;
+        margin-top: 3px;
+        height: 15px;
+    }
+    .free h3 {
+        margin-top: 5px;
+        font-size: 17px;
+        font-weight: 100;
+    }
+
+}
+
+@media only screen and (max-width: 440px) {
+
+    .soc-link ul li a:link {
+        padding: 0px;
+    }
+
+    .soc-link li  {
+        height: 5px;
+        max-width: 10px;
+        display: inline;
+        vertical-align: middle;
+    }
+    .soc-link a {
+        text-transform: uppercase;
         display: block;
-        width: 93%;
+        height: 30%;
+        padding: 3px;
+    }
+
+    .info-block {
+        padding-bottom: 0px;
+        max-height: 150px;
     }
 
     li.toll {
-          margin-left: 21%;
-      }
+        font-size: 15px;
+    }
 
     li.adress {
-        margin-left: 14%;
+        font-size: 15px;
     }
 
+    .slider {
+        height: 300px;
+    }
+
+    .slider-text{
+        top: 22%;
+        left: 16%;
+        max-width: 300px;
+    }
+
+    .slider-text h3 {
+        max-width: 300px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .slider-text h2 {
+        max-width: 300px;
+        font-size: 17px;
+    }
+    .slider-text p {
+        max-width: 300px;
+        font-size: 10px;
+    }
 
     .infopro {
-        height: 454px;
-        background: black url("img/bgpro.png") no-repeat;
-        position: relative;
-        width: 100%;
+        height: 254px;
     }
 
-    .twopro {
+
+    .infoser {
         height: 254px;
-        width: 50%;
+    }
+
+
+    .infobat {
+        height: 254px;
+    }
+
+    .twopro img {
+        height: 254px;
     }
 
     .onepro {
         height: 254px;
-        max-width: 50%;
-        width: 50%;
     }
 
-    .infoser {
+    .twoser img {
         height: 254px;
-        background: black url("img/layer-45.png") no-repeat;
-        position: relative;
-        width: 100%;
-        float: right;
-    }
-
-
-    .twoser {
-        height: 254px;
-        width: 50%;
     }
 
     .oneser {
         height: 254px;
-        max-width: 50%;
-        width: 50%;
     }
 
-    .oneser  img {
-        margin: 0 auto;
-    }
-
-    .infobat {
-        height: 454px;
-        background: black url("img/layer-47.png") no-repeat;
-        position: relative;
-        width: 100%;
-        float: left;
-    }
-
-    .twobat {
+    .twobat img {
         height: 254px;
-        width: 50%;
     }
 
     .onebat {
         height: 254px;
-        max-width: 50%;
-        width: 50%;
-    }
-
-
-}
-
-@media only screen and (max-width: 320px) {
-
-    .logo img {
-        width: 80%;
-    }
-
-    .soc-link {
-        padding-right: 16%;
-    }
-
-    li.toll {
-        margin-left: 30px;
-    }
-
-    .toll-adress {
-        width: 100%;
-    }
-
-    li.adress {
-        margin-left: 0%;
-        margin-right: 10%;
     }
 
 }
-
 
 
